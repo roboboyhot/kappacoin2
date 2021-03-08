@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-color: black;
+}
+ input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+ input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+}   
+
+   body {
+
+  color: white;
+  font-family: Verdana;
+
+}
+
+</style>
+<head>
+	<title>Kappa Coin</title>
+</head>	
+
+<body>
+<p>Type In Your Key To Access Your Kappa Coin</p>
+₭\:<INPUT id = "key" type="password" STYLE="color: #ffffff; font-family: Verdana; font-weight: bold; font-size: 14px; background-color: #000;" size="10" maxlength="30">
+
+</body>
+<button id="Submit" onclick="myFunction()">Submit</button>
+
+<script>
+	function myFunction(){
+  var user = document.getElementById("key").value;
+
+var amount = "0"
+var amountColour = amount.fontcolor("white")
+var money = "0"
+var moneyColour = money.fontcolor("white")
+
+if(user == "kookie"){
+alert("Click Ok To View Your Kappa Coin Status");
+document.write("₭: "+ amountColour);
+
+   document.body.style.backgroundColor = "black";
+}if(user == "hi"){
+alert("Click Ok To View Your Kappa Coin Status");
+document.write("₭: " + moneyColour);
+document.body.style.backgroundColor = "black";
+ }
+}
+</script>
+</html>
